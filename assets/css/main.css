@@ -111,7 +111,7 @@ main.mainPage .divWrapper .left.block .quickNav .quick a div {padding: 25px 0; t
 main.mainPage .divWrapper .left.block .quickNav .quick a div i {display: block; font-size: 72px;}
 
 main.browsePage {padding-top: 100px;}
-main.browsePage .recentAcquisitions {padding-bottom: 50px; border-bottom: 3px solid #888;}
+main.browsePage .recentAcquisitions {padding-bottom: 50px; border-bottom: 3px solid #014fb3;}
 main.browsePage .recentAcquisitions .carousel.slide {height: 300px;}
 main.browsePage .recentAcquisitions .carousel-control.left,
 main.browsePage .recentAcquisitions .carousel-control.right {background: none;}
@@ -119,8 +119,37 @@ main.browsePage .recentAcquisitions .carousel.slide .carousel-inner .item .listC
 main.browsePage .recentAcquisitions .carousel.slide .carousel-inner .item .listContainer .list.col {float: left; width: 33.33%; text-align: center;}
 main.browsePage .recentAcquisitions .carousel.slide .carousel-inner .item .listContainer .list.col img {max-width: 250px;}
 main.browsePage .recentAcquisitions .carousel.slide .carousel-inner .item .listContainer .list.col p:nth-child(2) {font-weight: bold;}
-main.browsePage .browseList {margin-top: 50px;}
+main.browsePage .recentAcquisitions .header p:nth-child(1) {font-size: 20px; line-height: 20px;}
+main.browsePage .recentAcquisitions .header p:nth-child(2) {font-size: 12px;}
+main.browsePage .control {margin-top: 25px; overflow: auto;}
+main.browsePage .control .header {float: left; width: 50%;}
+main.browsePage .control .sort {float: left; width: 50%; text-align: right;}
+main.browsePage .control .sort select {width: 100%; max-width: 200px;}
+main.browsePage .control .header p {font-size: 20px;}
+main.browsePage .browseList {margin-top:25px;}
 main.browsePage .browseList .itemRow {overflow: auto; border-left: 1px solid #888; border-top: 1px solid #888;}
-main.browsePage .browseList .itemRow .col {float: left; width: 20%; border-right: 1px solid #888;}
-main.browsePage .browseList .itemRow:nth-child(1) .col {font-weight: bold; text-align: center;}
+main.browsePage .browseList .itemRow .col {float: left; border-right: 1px solid #888;}
+main.browsePage .browseList .itemRow .col:nth-child(1) {width: 35%;}
+main.browsePage .browseList .itemRow .col:nth-child(2) {width: 20%;}
+main.browsePage .browseList .itemRow .col:nth-child(3) {width: 15%; text-align: center;}
+main.browsePage .browseList .itemRow .col:nth-child(4) {width: 15%; text-align: center;}
+main.browsePage .browseList .itemRow .col:nth-child(5) {width: 15%; text-align: center;}
+main.browsePage .browseList .itemRow:nth-child(1) .col {font-weight: bold; text-align: center; font-size: 16px;}
 main.browsePage .browseList .itemRow:nth-last-child(1) {border-bottom: 1px solid #888;}
+
+main.recentAcquisitionsPage .control {margin-top: 25px; overflow: auto;}
+main.recentAcquisitionsPage .control .header {float: left; width: 50%;}
+main.recentAcquisitionsPage .control .sort {float: left; width: 50%; text-align: right;}
+main.recentAcquisitionsPage .control .sort select {width: 100%; max-width: 200px;}
+main.recentAcquisitionsPage .control .header p {font-size: 20px;}
+main.recentAcquisitionsPage .browseList {margin-top:25px;}
+main.recentAcquisitionsPage .browseList .itemRow {overflow: auto; border-left: 1px solid #888; border-top: 1px solid #888;}
+main.recentAcquisitionsPage .browseList .itemRow .col {float: left; border-right: 1px solid #888;}
+main.recentAcquisitionsPage .browseList .itemRow .col:nth-child(1) {width: 40%;}
+main.recentAcquisitionsPage .browseList .itemRow .col:nth-child(2) {width: 20%;}
+main.recentAcquisitionsPage .browseList .itemRow .col:nth-child(3) {width: 10%; text-align: center;}
+main.recentAcquisitionsPage .browseList .itemRow .col:nth-child(4) {width: 10%; text-align: center;}
+main.recentAcquisitionsPage .browseList .itemRow .col:nth-child(5) {width: 10%; text-align: center;}
+main.recentAcquisitionsPage .browseList .itemRow .col:nth-child(6) {width: 10%; text-align: center;}
+main.recentAcquisitionsPage .browseList .itemRow:nth-child(1) .col {font-weight: bold; text-align: center; font-size: 16px;}
+main.recentAcquisitionsPage .browseList .itemRow:nth-last-child(1) {border-bottom: 1px solid #888;}

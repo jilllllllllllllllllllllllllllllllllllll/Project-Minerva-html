@@ -30,12 +30,14 @@ Pages to do:
 	> Home - Done
 	> Login - Done
 	> Add Book - Done
-	> Advanced Search
-	> Recent Acquisitions
-	> Pending Acquisitions
-	> News
+	> Advanced Search - In Progress
+	> Recent Acquisitions - Done
+	> Pending Acquisitions - Done
+	> News - Next
 	> Add News - Done
-	> Browse - In Progress
-	> Contact
+	> Browse - Done
+	> Contact 
 	> FAQ
 	> Collection
+	> Borrowed
+	> Material Information
