@@ -98,7 +98,7 @@
 			</div>
 			<div class="mid block">
 				<div class="container">
-					<a href="#">[Edit]</a><a href="#">[Delete]</a>
+					<a href="#" data-toggle="modal" data-target="#editMaterial">[Edit]</a><a href="#">[Delete]</a>
 					<img src="assets/img/url.jpg">
 					<div class="information">
 						<div class="row">
@@ -207,6 +207,74 @@
 				</div>
 			</div>
 		</div>
+		<div class="feedbackWrapper">
+
+			<div class="messageList">
+				<div class="row">
+					<div class="user">
+						<p>2011 - 01068</p>
+						<p>BSCS-SE</p>
+					</div>
+					<div class="messageContainer">
+						<div class="message">
+							<p>(Message here)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="messageCreation">
+				<div class="formContainer">
+					<p>Have anything to say?</p>
+					<form>
+						<textarea placeholder="Please type your message here.."></textarea>
+						<button type="Submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Modal -->
+		<div id="editMaterial" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-body">
+		        <div class="formContainer">
+					<p>Fill in the form with the changes you want to commit.</p>
+					<form>
+						<input type="text" placeholder="Account Number">
+						<input type="text" placeholder="Title">
+						<div class="author">
+							<input type="text" placeholder="Author">
+							<input type="text" placeholder="Class">
+						</div>
+						<div class="edition">
+							<input type="text" placeholder="Edition">
+							<input type="text" placeholder="Volume">
+							<input type="text" placeholder="Pages">
+						</div>
+						<div class="publication">
+							<input type="text" placeholder="Publisher">
+							<select>
+								<option>Year Published</option>
+								<option>2010</option>
+								<option>2010</option>
+							</select>
+						</div>
+						<select>
+							<option>Number of Copies</option>
+							<option>Unavailable</option>
+							<option>1</option>
+							<option>2</option>
+						</select>
+						<button>Submit</button>
+					</form>
+				</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	</main>
 
 	<section class="wrapperFull footer">
@@ -250,6 +318,6 @@
 	</section>	
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.css"></script>
+<script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/custom.js"></script>
 </html>

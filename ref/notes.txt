@@ -40,7 +40,7 @@ Pages to do:
 	> FAQ
 	> Collection 
 	> Borrowed 
-	> Material Information - In Progress
+	> Material Information - Done
 
 Functionalities:
 	Collection drag&drop

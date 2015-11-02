@@ -213,3 +213,39 @@ main.materialPage .blockWrapper .block .container {max-width: 600px; margin: 0 a
 main.materialPage .blockWrapper .block .container img {display: block; margin: 0 auto 50px; padding-top: 50px;}
 main.materialPage .blockWrapper .block .container a {padding-top: 10px; display: inline-block;}
 main.materialPage .blockWrapper .block .container a:nth-child(2) {margin-left: 10px;}
+
+main.materialPage .feedbackWrapper {max-width: 50%; margin: 50px auto 20px;}
+main.materialPage .feedbackWrapper hr {border-color: #014fb3;}
+main.materialPage .feedbackWrapper .messageList .row {overflow: auto;}
+main.materialPage .feedbackWrapper .messageList .row .user {width: 25%; float: left;}
+main.materialPage .feedbackWrapper .messageList .row .user p {text-align: center;}
+main.materialPage .feedbackWrapper .messageList .row .user p:nth-child(1) {margin-top: 25px; font-weight: bold; font-size: 14px;}
+main.materialPage .feedbackWrapper .messageList .row .user p:nth-child(2) {margin-top: 5px; font-size: 12px;}
+main.materialPage .feedbackWrapper .messageList .row .messageContainer {width: 75%; float: left;}
+main.materialPage .feedbackWrapper .messageList .row .messageContainer .message {border: #014fb3 solid 1px; border-radius: 10px; min-height: 100px;}
+main.materialPage .feedbackWrapper .messageList .row .messageContainer .message p {padding: 10px;}
+main.materialPage .feedbackWrapper .messageCreation {margin-top: 50px;}
+main.materialPage .feedbackWrapper .messageCreation p {font-size: 15px;}
+main.materialPage .feedbackWrapper .messageCreation .formContainer form {text-align: right;}
+main.materialPage .feedbackWrapper .messageCreation .formContainer form textarea {width: 100%; padding: 10px; box-sizing: border-box; margin: 10px auto; resize: none; height: 150px; border-radius: 10px;  border: solid 1px #888;}
+main.materialPage .feedbackWrapper .messageCreation .formContainer form button {height: 43px; background: #014fb3; border: none; color: #FFF; width: 30%; margin: 15px 0 0 -4px; display: inline-block; border-radius: 0px;}
+main.materialPage .feedbackWrapper .messageCreation .formContainer form button:hover {background: #003a84;}
+
+main.materialPage .modal-body .formContainer {margin-top: 20px;}
+main.materialPage .modal-body .formContainer form {margin-top: 20px;}
+main.materialPage .modal-body .formContainer form input, 
+main.materialPage .modal-body .formContainer form select,
+main.materialPage .modal-body .formContainer form textarea {width: 100%; padding: 10px; box-sizing: border-box; margin: 10px auto;}
+main.materialPage .modal-body .formContainer p {font-size: 20px;}
+main.materialPage .modal-body .formContainer form {text-align: center;}
+main.materialPage .modal-body .formContainer form .author {overflow: auto;}
+main.materialPage .modal-body .formContainer form .author input {float: left; width: 47.5%}
+main.materialPage .modal-body .formContainer form .author input:nth-child(2) {margin-left: 5%;}
+main.materialPage .modal-body .formContainer form .edition {overflow: auto;}
+main.materialPage .modal-body .formContainer form .edition input {float: left; width: 30%;}
+main.materialPage .modal-body .formContainer form .edition input:nth-child(2) {margin-left: 5%;}
+main.materialPage .modal-body .formContainer form .edition input:nth-child(3) {margin-left: 5%;}
+main.materialPage .modal-body .formContainer form .publication input {float: left; width: 47.5%;}
+main.materialPage .modal-body .formContainer form .publication select {float: left; width: 47.5%; margin-left: 5%;}
+main.materialPage .modal-body .formContainer form button {padding: 10px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 250px; margin-top: 15px;}
+main.materialPage .modal-body .formContainer form button:hover {background: #003a84;}
