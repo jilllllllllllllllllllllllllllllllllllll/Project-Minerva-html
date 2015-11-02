@@ -228,7 +228,7 @@ main.materialPage .feedbackWrapper .messageCreation {margin-top: 50px;}
 main.materialPage .feedbackWrapper .messageCreation p {font-size: 15px;}
 main.materialPage .feedbackWrapper .messageCreation .formContainer form {text-align: right;}
 main.materialPage .feedbackWrapper .messageCreation .formContainer form textarea {width: 100%; padding: 10px; box-sizing: border-box; margin: 10px auto; resize: none; height: 150px; border-radius: 10px;  border: solid 1px #888;}
-main.materialPage .feedbackWrapper .messageCreation .formContainer form button {height: 43px; background: #014fb3; border: none; color: #FFF; width: 30%; margin: 15px 0 0 -4px; display: inline-block; border-radius: 0px;}
+main.materialPage .feedbackWrapper .messageCreation .formContainer form button {height: 43px; background: #014fb3; border: none; color: #FFF; width: 30%; margin: 15px 0; display: inline-block; border-radius: 0px;}
 main.materialPage .feedbackWrapper .messageCreation .formContainer form button:hover {background: #003a84;}
 
 main.materialPage .modal-body .formContainer {margin-top: 20px;}
@@ -249,3 +249,16 @@ main.materialPage .modal-body .formContainer form .publication input {float: lef
 main.materialPage .modal-body .formContainer form .publication select {float: left; width: 47.5%; margin-left: 5%;}
 main.materialPage .modal-body .formContainer form button {padding: 10px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 250px; margin-top: 15px;}
 main.materialPage .modal-body .formContainer form button:hover {background: #003a84;}
+
+main.newsPage {padding-top: 150px;}
+main.newsPage p {font-size: 24px; line-height: 24px;}
+main.newsPage .newsContainer {margin-top: 50px;}
+main.newsPage .newsContainer .row {overflow: hidden;}
+main.newsPage .newsContainer .row .col {float: left; width: 30%; margin: 20px 1.66%; border: #CCC solid 1px; border-radius: 10px;}
+main.newsPage .newsContainer .row .col .news {max-width: 90%; margin: 0 auto; padding: 20px; box-sizing: border-box;}
+main.newsPage .newsContainer .row .col .news img {max-width: 250px; display: block; margin: 0 auto;}
+main.newsPage .newsContainer .row .col .news .information {margin-top: 15px;}
+main.newsPage .newsContainer .row .col .news .information p:nth-child(1) {font-size: 14px; font-weight: bold;}
+main.newsPage .newsContainer .row .col .news .information p:nth-child(2) {font-size: 12px; margin-top: 5px; text-align: justify;}
+main.newsPage .newsContainer .row .col .news button {height: 43px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 120px; margin: 15px auto; display: block; border-radius: 10px;}
+main.newsPage .newsContainer .row .col .news button:hover {background: #003a84;}
