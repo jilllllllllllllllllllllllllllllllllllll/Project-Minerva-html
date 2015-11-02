@@ -153,3 +153,33 @@ main.recentAcquisitionsPage .browseList .itemRow .col:nth-child(5) {width: 10%; 
 main.recentAcquisitionsPage .browseList .itemRow .col:nth-child(6) {width: 10%; text-align: center;}
 main.recentAcquisitionsPage .browseList .itemRow:nth-child(1) .col {font-weight: bold; text-align: center; font-size: 16px;}
 main.recentAcquisitionsPage .browseList .itemRow:nth-last-child(1) {border-bottom: 1px solid #888;}
+
+main.advancedSearchPage .search {padding-bottom: 30px;}
+main.advancedSearchPage .search form {margin: 0 auto; max-width: 600px;}
+main.advancedSearchPage .search form input[type="text"] {width: 70%; padding: 10px; box-sizing: border-box; margin: 10px auto 25px; border: 1px #014fb3 solid; display: inline-block;}
+main.advancedSearchPage .search form button {height: 43px; background: #014fb3; border: none; color: #FFF; width: 30%; margin: 15px 0 0 -4px; display: inline-block; border-radius: 0px;}
+main.advancedSearchPage .search form button:hover {background: #003a84;}
+main.advancedSearchPage .search form .filters {overflow: auto; border: 1px solid #014fb3; padding: 15px; margin-bottom: 15px;}
+main.advancedSearchPage .search form .filters p {font-size: 14px; font-weight: bold; margin-bottom: 5px;}
+main.advancedSearchPage .search form .filters .block {width: 33.33%; float: left;}
+main.advancedSearchPage .search form .filters .block .year select {display: inline-block;}
+main.advancedSearchPage .search form .filters .block .year label {display: block; margin: 8px 0;}
+main.advancedSearchPage .search form .filters .block .genre select {display: inline-block;}
+main.advancedSearchPage .search form .filters .block .genre label {display: block; margin: 0px 0 8px;}
+main.advancedSearchPage .search form .filters .block label {font-weight: normal; margin-left: 5px;}
+main.advancedSearchPage .control {margin-top: 25px; overflow: hidden;}
+main.advancedSearchPage .control .header {float: left; width: 50%;}
+main.advancedSearchPage .control .sort {float: left; width: 50%; text-align: right;}
+main.advancedSearchPage .control .sort select {width: 100%; max-width: 200px;}
+main.advancedSearchPage .control .header p {font-size: 20px; line-height: 20px;}
+main.advancedSearchPage .browseList {margin-top:25px;}
+main.advancedSearchPage .browseList .itemRow {overflow: auto; border-left: 1px solid #888; border-top: 1px solid #888;}
+main.advancedSearchPage .browseList .itemRow .col {float: left; border-right: 1px solid #888;}
+main.advancedSearchPage .browseList .itemRow .col:nth-child(1) {width: 40%;}
+main.advancedSearchPage .browseList .itemRow .col:nth-child(2) {width: 20%;}
+main.advancedSearchPage .browseList .itemRow .col:nth-child(3) {width: 10%; text-align: center;}
+main.advancedSearchPage .browseList .itemRow .col:nth-child(4) {width: 10%; text-align: center;}
+main.advancedSearchPage .browseList .itemRow .col:nth-child(5) {width: 10%; text-align: center;}
+main.advancedSearchPage .browseList .itemRow .col:nth-child(6) {width: 10%; text-align: center;}
+main.advancedSearchPage .browseList .itemRow:nth-child(1) .col {font-weight: bold; text-align: center; font-size: 16px;}
+main.advancedSearchPage .browseList .itemRow:nth-last-child(1) {border-bottom: 1px solid #888;}
