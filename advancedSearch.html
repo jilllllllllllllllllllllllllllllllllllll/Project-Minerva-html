@@ -65,8 +65,10 @@
 		<div class="control">
 			<div class="search">
 				<form>
-					<input type="text">
-					<button type="submit">Submit</button>
+					<div class="query">
+						<input type="text">
+						<button type="submit">Submit</button>
+					</div>
 					<div class="filters">
 						<div class="left block">
 							<p>Search by</p>
@@ -82,15 +84,26 @@
 							<div><input type="checkbox"><label>Periodical</label></div>
 						</div>
 						<div class="right block">
-							<p>&nbsp;</p>
-							<div class="genre">
-								<label>Genre:</label>
-								<select>
-									<option>Psychology</option>
-									<option>Marketing</option>
-									<option>Animation</option>
-								</select>
+							<p>Genre</p>
+							<div class="divider">
+								<div><input type="checkbox"><label>Arts & Animation</label></div>
+								<div><input type="checkbox"><label>Business and Marketing</label></div>
+								<div><input type="checkbox"><label>General Mathematics</label></div>
+								<div><input type="checkbox"><label>English and Other Languages</label></div>
+								<div><input type="checkbox"><label>Programming</label></div>
+								<div><input type="checkbox"><label>Hobbies & Recreation</label></div>
+								<div><input type="checkbox"><label>Science & Technology</label></div>
 							</div>
+							<div class="divider">
+								<div><input type="checkbox"><label>General Psychology</label></div>
+								<div><input type="checkbox"><label>Classical and General Literature</label></div>
+								<div><input type="checkbox"><label>Fiction</label></div>
+								<div><input type="checkbox"><label>Historical and Non-Fiction</label></div>
+								<div><input type="checkbox"><label>Kids and Games</label></div>
+							</div>
+						</div>
+						<div class="last block">
+							<p>Other</p>
 							<div class="year">
 								<label>Year published:</label>
 								<select>
@@ -104,6 +117,8 @@
 									<option>2002</option>
 									<option>2003</option>
 								</select>
+								<label>Tags:</label>
+								<input type="text" placeholder="Tags">
 							</div>
 						</div>
 					</div>

@@ -39,7 +39,7 @@ Pages to do:
 	> Contact 
 	> FAQ
 	> Collection 
-	> Borrowed 
+	> Lend - In Progress
 	> Material Information - Done
 
 Functionalities:
