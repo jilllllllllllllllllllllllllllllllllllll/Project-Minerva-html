@@ -268,3 +268,19 @@ main.newsPage .newsContainer .row .col .news .information p:nth-child(1) {font-s
 main.newsPage .newsContainer .row .col .news .information p:nth-child(2) {font-size: 12px; margin-top: 5px; text-align: justify;}
 main.newsPage .newsContainer .row .col .news button {height: 43px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 120px; margin: 15px auto; display: block; border-radius: 10px;}
 main.newsPage .newsContainer .row .col .news button:hover {background: #003a84;}
+
+main.addUserPage {max-width: 1024px; padding-top: 100px;}
+main.addUserPage .divWrapper {overflow: auto; margin: 0 auto; max-width: 800px;}
+main.addUserPage .divWrapper .left.block .formContainer {margin-top: 50px;}
+main.addUserPage .divWrapper .left.block .formContainer form input, 
+main.addUserPage .divWrapper .left.block .formContainer form select,
+main.addUserPage .divWrapper .left.block .formContainer form textarea {width: 100%; padding: 10px; box-sizing: border-box; margin: 10px auto; height: 42px; float: left;}
+main.addUserPage .divWrapper .left.block .formContainer p {font-size: 20px;}
+main.addUserPage .divWrapper .left.block .formContainer form {text-align: center;}
+main.addUserPage .divWrapper .left.block .formContainer form button {padding: 10px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 250px; margin-top: 15px;}
+main.addUserPage .divWrapper .left.block .formContainer form button:hover {background: #003a84;}
+main.addUserPage .divWrapper .left.block .formContainer form div {overflow: auto;}
+main.addUserPage .divWrapper .left.block .formContainer form .name input {width: 31.66%;}
+main.addUserPage .divWrapper .left.block .formContainer form .name input:nth-child(2) {margin: 10px 2.51%;}
+main.addUserPage .divWrapper .left.block .formContainer form .class input {width: 30%;}
+main.addUserPage .divWrapper .left.block .formContainer form .class select {width: 67.5%; margin-left: 2.5%;}
