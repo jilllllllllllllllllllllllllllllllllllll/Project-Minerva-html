@@ -316,5 +316,3 @@ main.lendPage .divWrapper .formContainer p {font-size: 20px;}
 main.lendPage .divWrapper .formContainer form.main button {padding: 10px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 250px; margin-top: 15px;}
 main.lendPage .divWrapper .formContainer form button:hover {background: #003a84;}
 main.lendPage .divWrapper .formContainer form.main .search {overflow: auto;}
-/*main.lendPage .divWrapper .left.block .formContainer form .search input {float: left; width: 70%; padding: 10px; height: 42px;}
-main.lendPage .divWrapper .left.block .formContainer form .search button {float: left; width: 30%; height: 42px;}*/
