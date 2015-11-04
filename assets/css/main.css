@@ -316,3 +316,31 @@ main.lendPage .divWrapper .formContainer p {font-size: 20px;}
 main.lendPage .divWrapper .formContainer form.main button {padding: 10px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 250px; margin-top: 15px;}
 main.lendPage .divWrapper .formContainer form button:hover {background: #003a84;}
 main.lendPage .divWrapper .formContainer form.main .search {overflow: auto;}
+
+main.historyPage {padding: 100px 0 150px;}
+main.historyPage .banner img {display: block; margin: 0 auto;}
+main.historyPage .tabber {margin-top: 69px;}
+main.historyPage .tabber .head {position: absolute; overflow: auto; top: 390px;}
+main.historyPage .tabber .head .tab {display: block; background: #014fb3; border-radius: 20px 20px 0 0; padding: 10px 20px; float: left; cursor: pointer;}
+main.historyPage .tabber .head .tab.active {background: #003a84;}
+main.historyPage .tabber .head .tab p {color: #FFF;}
+main.historyPage .tabber .head .tab:nth-child(2) {margin-left: 2px;}
+main.historyPage .tabber .content {border: 1px solid #014fb3; padding: 20px;}
+main.historyPage .tabber .content.active {display: block;}
+main.historyPage .tabber .viewed {display: none;}
+main.historyPage .tabber .borrowed {display: none;}
+main.historyPage .control {margin-top: 25px; overflow: auto;}
+main.historyPage .control .header {float: left; width: 50%;}
+main.historyPage .control .sort {float: left; width: 50%; text-align: right;}
+main.historyPage .control .sort select {width: 100%; max-width: 200px;}
+main.historyPage .control .header p {font-size: 20px;}
+main.historyPage .historyList {margin-top:25px;}
+main.historyPage .historyList .itemRow {overflow: auto; border-left: 1px solid #888; border-top: 1px solid #888;}
+main.historyPage .historyList .itemRow .col {float: left; border-right: 1px solid #888;}
+main.historyPage .historyList .itemRow .col:nth-child(1) {width: 35%;}
+main.historyPage .historyList .itemRow .col:nth-child(2) {width: 20%;}
+main.historyPage .historyList .itemRow .col:nth-child(3) {width: 15%; text-align: center;}
+main.historyPage .historyList .itemRow .col:nth-child(4) {width: 15%; text-align: center;}
+main.historyPage .historyList .itemRow .col:nth-child(5) {width: 15%; text-align: center;}
+main.historyPage .historyList .itemRow:nth-child(1) .col {font-weight: bold; text-align: center; font-size: 16px;}
+main.historyPage .historyList .itemRow:nth-last-child(1) {border-bottom: 1px solid #888;}

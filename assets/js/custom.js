@@ -34,4 +34,18 @@ $(document).ready(function() {
 		$('.search .menu').css('display', 'none');
 		$('.add .menu').css('display', 'none');
 	});
+	$('#viewed').click(function(){
+		$(this).addClass('active');
+		$('#viewedTab').addClass('active');
+
+		$('#borrowed').removeClass('active');
+		$('#borrowedTab').removeClass('active');
+	});
+	$('#borrowed').click(function(){
+		$(this).addClass('active');
+		$('#borrowedTab').addClass('active');
+
+		$('#viewed').removeClass('active');
+		$('#viewedTab').removeClass('active');
+	});
 });

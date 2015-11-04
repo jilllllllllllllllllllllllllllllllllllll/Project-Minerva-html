@@ -39,8 +39,10 @@ Pages to do:
 	> Contact 
 	> FAQ
 	> Collection 
-	> Lend - In Progress
+	> Lend - Done
 	> Material Information - Done
+	> History
+	> Similar
 
 Functionalities:
 	Collection drag&drop
