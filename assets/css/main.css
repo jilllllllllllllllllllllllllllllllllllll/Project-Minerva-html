@@ -18,15 +18,19 @@ main.body {position: relative; max-width: 1200px; margin: 0 auto; padding-top: 5
 .wrapperFull .wrapperMax nav .logoContainer img {display: block; max-height: 45px;}
 .wrapperFull .wrapperMax nav .linkContainer {width: 70%; height: inherit;}
 .wrapperFull .wrapperMax nav .linkContainer ol {overflow: auto; float: right; width: 100%; max-width: 325px; height: inherit;}
-.wrapperFull .wrapperMax nav .linkContainer ol > ul {float: left; width: 25%; text-align: center; max-width: 78px; height: inherit; background: none; cursor: pointer;}
+.wrapperFull .wrapperMax nav .linkContainer ol > ul {float: right; width: 33.33%; text-align: center; max-width: 78px; height: inherit; background: none; cursor: pointer;}
+.wrapperFull .wrapperMax nav .linkContainer ol.admin {max-width: 400px;}
+.wrapperFull .wrapperMax nav .linkContainer ol.admin > ul {width: 25%;}
 .wrapperFull .wrapperMax nav .linkContainer ol > ul > ul {position: absolute; background: #FFF; max-width: 180px; width: 100%; border: 1px solid #CCC; top: 50px; display: none;}
 .wrapperFull .wrapperMax nav .linkContainer ol > ul > ul li {text-align: left; line-height: 14px;}
-.wrapperFull .wrapperMax nav .linkContainer ol > ul > ul li:nth-child(2) {margin-top: 5px;}
 .wrapperFull .wrapperMax nav .linkContainer ol > ul > ul li p {font-size: 12px; color: #484848; line-height: 14px; padding: 8px 10px 5px; border-top: 1px solid #CCC;}
-.wrapperFull .wrapperMax nav .linkContainer ol > ul > ul li:nth-child(6) p {border-top: 1px solid #CCC; border-bottom: 1px solid #CCC;}
 .wrapperFull .wrapperMax nav .linkContainer ol > ul > ul li a {display: inline-block; color: #484848; transition: .2s; width: 100%; box-sizing: border-box; padding: 3px 10px 3px 25px; font-size: 10px;}
 .wrapperFull .wrapperMax nav .linkContainer ol > ul > ul li a:hover {color: #FFF; background: #29668f;}
-.wrapperFull .wrapperMax nav .linkContainer ol > ul button {height: 25px; width: 75px; background: #347ab8; border: none; margin: 11px 0;}
+.wrapperFull .wrapperMax nav .linkContainer ol ul.search ul.menu {max-width: 25%; right: 0;}
+.wrapperFull .wrapperMax nav .linkContainer ol ul.search ul.menu li form {max-width: 90%; margin: 0 auto; overflow: auto;}
+.wrapperFull .wrapperMax nav .linkContainer ol ul.search ul.menu li form input {width: 80%; padding: 10px; box-sizing: border-box; margin: 10px auto; float: left;}
+.wrapperFull .wrapperMax nav .linkContainer ol ul.search ul.menu li form button {position: relative; left: -2px; height: 36px; width: 20%; background: #347ab8; border: none; margin: 10px auto; display: block; float: left; border-radius: 0;}
+.wrapperFull .wrapperMax nav .linkContainer ol ul.search ul.menu li form button:hover {background: #003a84;}
 .wrapperFull .wrapperMax nav .linkContainer ol > ul > a {display: inline-block; font-size: 12px; margin: 18px 0;}
 
 .wrapperFull.footer {width: 100%; border-top: 10px solid #131313; background: url(../img/footer_pl.png) no-repeat top center #1D1D1D;}
@@ -53,7 +57,7 @@ main {padding-bottom: 100px;}
 main.loginPage .formContainer {padding: 100px 0;}
 main.loginPage .formContainer form {max-width: 600px; margin: 0 auto; border: #CCC solid 1px; padding: 50px 50px 30px; text-align: center; border-radius: 5px;}
 main.loginPage .formContainer form p {font-weight: bold; font-size: 18px; margin-bottom: 10px;}
-main.loginPage .formContainer form input {width: 100%; padding: 10px; box-sizing: border-box; margin: 10px auto}
+main.loginPage .formContainer form input {width: 100%; padding: 10px; box-sizing: border-box; margin: 10px auto;}
 main.loginPage .formContainer form button {padding: 10px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 140px; margin-top:15px;}
 main.loginPage .formContainer form button:hover {background: #003a84;}
 main.loginPage .formContainer form .cookie {text-align: right;}
@@ -79,8 +83,9 @@ main.addBookPage .divWrapper .left.block .formContainer form .edition {overflow:
 main.addBookPage .divWrapper .left.block .formContainer form .edition input {float: left; width: 30%;}
 main.addBookPage .divWrapper .left.block .formContainer form .edition input:nth-child(2) {margin-left: 5%;}
 main.addBookPage .divWrapper .left.block .formContainer form .edition input:nth-child(3) {margin-left: 5%;}
-main.addBookPage .divWrapper .left.block .formContainer form .publication input {float: left; width: 47.5%;}
-main.addBookPage .divWrapper .left.block .formContainer form .publication select {float: left; width: 47.5%; margin-left: 5%;}
+main.addBookPage .divWrapper .left.block .formContainer form .publication input {float: left; width: 30%;}
+main.addBookPage .divWrapper .left.block .formContainer form .publication input:nth-child(2) {margin: 10px 5%;}
+main.addBookPage .divWrapper .left.block .formContainer form .publication select {float: left; width: 30%; height: 42px;}
 main.addBookPage .divWrapper .left.block .formContainer form button {padding: 10px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 250px; margin-top: 15px;}
 main.addBookPage .divWrapper .left.block .formContainer form button:hover {background: #003a84;}
 
@@ -245,8 +250,9 @@ main.materialPage .modal-body .formContainer form .edition {overflow: auto;}
 main.materialPage .modal-body .formContainer form .edition input {float: left; width: 30%;}
 main.materialPage .modal-body .formContainer form .edition input:nth-child(2) {margin-left: 5%;}
 main.materialPage .modal-body .formContainer form .edition input:nth-child(3) {margin-left: 5%;}
-main.materialPage .modal-body .formContainer form .publication input {float: left; width: 47.5%;}
-main.materialPage .modal-body .formContainer form .publication select {float: left; width: 47.5%; margin-left: 5%;}
+main.materialPage .divWrapper .left.block .formContainer form .publication input {float: left; width: 30%;}
+main.materialPage .divWrapper .left.block .formContainer form .publication input:nth-child(2) {margin: 10px 5%;}
+main.materialPage .divWrapper .left.block .formContainer form .publication select {float: left; width: 30%; height: 42px;}
 main.materialPage .modal-body .formContainer form button {padding: 10px; background: #014fb3; border: none; color: #FFF; width: 100%; max-width: 250px; margin-top: 15px;}
 main.materialPage .modal-body .formContainer form button:hover {background: #003a84;}
 
